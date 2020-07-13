@@ -811,7 +811,7 @@ applications that integrate well with the MATE desktop." 8 60
               xinit_config="exec mate-session"
               ;;
              "Ukui") DESKTOP_PACKAGES+=('ukui' 'qalculate-gtk' 'pulseaudio-equalizer-ladspa' 'qastools' 'kodi-x11' 'gnome-system-monitor' 'tilix' 'plank' 'evince' 'dconf-editor' 'cheese' 'geany' 'geany-plugins' 'firefox' 'sysstat' 'thunderbird' 'telegram-desktop' 'bashtop' 'fractal' 'lollypop' 'file-roller' 'transmission-gtk' 'vlc' 'gpicview' 'kodi' 'simplescreenrecorder' 'cheese' 'aria2' 'pdfarranger' 'hplip' 'git' 'wget' 'neofetch' 'nano' 'reflector' 'p7zip' 'arj' 'lzip' 'lha' 'sharutils' 'lzop' 'cabextract' 'lrzip' 'youtube-dl' 'mesa-demos' 'tree' 'bind-tools' 'dmidecode' 'hddtemp' 'jshon' 'expac' 'cups' 'cups-pdf' 'xorg-xinit' 'inetutils' 'keepassxc' 'speedtest-cli' 'wavemon' 'cronie' 'uget' 'usbutils' 'bash-completion' 'pacman-contrib' 'calibre' 'unarj' 'cpio')
-                  xinit_config="exec cinnamon-session"
+                  xinit_config="exec ukui-session-manager"
                   ;;    
               
       "Xfce") DESKTOP_PACKAGES+=('xfce4')
