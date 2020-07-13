@@ -810,7 +810,7 @@ applications that integrate well with the MATE desktop." 8 60
               fi
               xinit_config="exec mate-session"
               ;;
-             "Ukui") DESKTOP_PACKAGES+=('ukui' 'gnome-terminal')
+             "Ukui") DESKTOP_PACKAGES+=('ukui')
                   xinit_config="exec ukui-session-manager"
                   ;;    
               
